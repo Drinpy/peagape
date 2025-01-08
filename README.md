@@ -1,6 +1,5 @@
 # Momento PHP
 ``Registro de progresso do PHP.`` 
-<br>
 ## **What is a PHP File?**
 
 - **PHP files** can contain **text**, **HTML**, **CSS**, **JavaScript**, and **PHP code**.  
