@@ -8,7 +8,7 @@
 
 ---
 
-# Rules for PHP Variables
+## Rules for PHP Variables
 
 1. A variable starts with the `$` sign, followed by the name of the variable.
 2. A variable name must start with:
