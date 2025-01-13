@@ -11,7 +11,7 @@ echo "A soma de 4 e 9 é igual a $sum.";
 
 var_dump($num);                           // Apresenta o tipo da variável que eu selecionei. Em STRINGS apresenta o número de caractéres.
 
-// Var SCOPE
+// Var SCOPE.GLOBAL
 
 $one = "UM";                              // Variável definida em Global Scope. Fora das chaves da função.
 
@@ -22,6 +22,8 @@ function myTest() {
 
 myTest();                                 // Chama pela função 'myTest'.
 echo "Só há $one jeito de descobrir!";    // Por estar fora da função a variável Global retornará o valor.
+
+// Var SCOPE.LOCAL
 
 function localTest() {
   global $num;                            // A palavra-chave 'global' pode ser usada dentro de uma função para chamar uma variável Global.
