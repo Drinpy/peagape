@@ -24,7 +24,7 @@ myTest();                                 // Chama pela função 'myTest'.
 echo "Só há $one jeito de descobrir!";    // Por estar fora da função a variável Global retornará o valor.
 
 function localTest() {
-  $loc = "vários";                        // Variável definida em Local Scope. Dentro das chaves da função.
+  $loc = "VÁRIOS";                        // Variável definida em Local Scope. Dentro das chaves da função.
   echo "<p>Há $loc jeitos de descobrir!!</p>";  // Logo, por estar dentro da função 'localTest' a variável retornará o valor!
 }
 
