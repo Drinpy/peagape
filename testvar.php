@@ -20,7 +20,7 @@ function myTest() {
   echo "Só há $one jeito de descobrir!";  // Logo, dentro da função 'myTest' a variável não retornará nada!
 }
 
-myTest();
+myTest();                                 // Chama pela função 'myTest'.
 echo "Só há $one jeito de descobrir!";    // Por estar fora da função a variável Global retornará o valor.
 
 ?>
