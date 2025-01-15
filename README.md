@@ -20,4 +20,30 @@
    - Underscores (`_`).
 5. Variable names are **case-sensitive**:
    - `$age` and `$AGE` are considered two different variables.
+  
+---
+  
+## **PHP echo and print Statements**
+
+- **`echo`** and **`print`** are more or less the **same**.  
+  Both are used to **output data** to the screen.
+
+### **Differences Between `echo` and `print`**
+
+1. **Return Value**:  
+   - `echo` has **no return value**.  
+   - `print` has a **return value of 1**, so it can be used in **expressions**.
+
+2. **Parameters**:  
+   - `echo` can take **multiple parameters** (though this usage is rare).  
+   - `print` can take only **one argument**.
+
+3. **Performance**:  
+   - `echo` is marginally **faster** than `print`.
+
+```php
+// Examples:
+echo "This is echo.";
+print "This is print.";
+
 
