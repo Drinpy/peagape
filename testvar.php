@@ -35,4 +35,18 @@ function localTest() {
 localTest();
 echo "<p>Há $loc jeitos de descobrir!</p>";  // Estando fora da função e requisitando uma variável Local fará com que nenhum valor seja retornado!
 
+// Var SCOPE.STATIC
+
+function staticTest() {
+  static $p = 0;                          // Graças ao 'static' a variável Local declarada não será resetada ao chamarmos a função.
+  echo $p;
+  $p++;
+}
+
+staticTest();                             // Dessa forma, chamar a função não irá apresentar 0, 0, 0, mas sim, 0, 1, 2.
+echo "<br>";
+staticTest();
+echo "<br>";
+staticTest();
+
 ?>
