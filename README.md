@@ -42,8 +42,79 @@
    - `echo` is marginally **faster** than `print`.
 
 ```php
-// Examples:
+
 echo "This is echo.";
 print "This is print.";
+```
+---
 
+## **PHP Data Types**
+
+In PHP, **variables** can store data of different types, and different data types are used for different purposes.
+
+### **Supported Data Types in PHP**
+
+1. **String**  
+   - A sequence of characters enclosed in quotes (single or double).  
+   - Example:  
+     ```php
+     $string = "Hello, World!";
+     ```
+
+2. **Integer**  
+   - A non-decimal number, positive or negative.  
+   - Example:  
+     ```php
+     $integer = 42;
+     ```
+
+3. **Float** *(also called double)*  
+   - A number with a decimal point or in exponential form.  
+   - Example:  
+     ```php
+     $float = 3.14;
+     ```
+
+4. **Boolean**  
+   - Represents two possible states: `true` or `false`.  
+   - Example:  
+     ```php
+     $boolean = true;
+     ```
+
+5. **Array**  
+   - A collection of values stored in a single variable.  
+   - Example:  
+     ```php
+     $array = ["Apple", "Banana", "Cherry"];
+     ```
+
+6. **Object**  
+   - An instance of a class that can hold both data and functions.  
+   - Example:  
+     ```php
+     class Car {
+         public $color;
+         public function __construct($color) {
+             $this->color = $color;
+         }
+     }
+     $myCar = new Car("red");
+     ```
+
+7. **NULL**  
+   - Represents a variable with no value.  
+   - Example:  
+     ```php
+     $nullVar = null;
+     ```
+
+8. **Resource**  
+   - Holds a reference to an external resource (e.g., database connection).  
+   - Example:  
+     ```php
+     $file = fopen("file.txt", "r");
+     ```
+
+---
 
