@@ -13,4 +13,5 @@ class Car {
 
 $myCar = new Car("red", "Volvo");
 var_dump($myCar);
+var_dump(Car);
 ?>
