@@ -118,3 +118,81 @@ In PHP, **variables** can store data of different types, and different data type
 
 ---
 
+## PHP Strings
+
+### 1. Introduction to Strings
+- Definition of strings in PHP.
+- Examples of string declaration.
+
+## 2. String Syntax
+- **Single-quoted strings**:
+  - Usage and characteristics.
+  - Limitations (e.g., no variable parsing).
+- **Double-quoted strings**:
+  - Variable interpolation.
+  - Escape sequences.
+
+## 3. Common String Functions
+- **Length and Character Count**:
+  - `strlen()`: Count the number of characters in a string.
+  - `mb_strlen()`: Handle multibyte strings.
+- **String Manipulation**:
+  - `strtolower()` and `strtoupper()`: Change string case.
+  - `ucwords()`: Capitalize words in a string.
+  - `substr()`: Extract substrings.
+- **String Replacement**:
+  - `str_replace()`: Replace a substring with another.
+  - `substr_replace()`: Replace a specific part of a string.
+- **Searching in Strings**:
+  - `strpos()` and `stripos()`: Find the position of a substring.
+  - `str_contains()` (PHP 8+): Check if a string contains a substring.
+  - `str_ends_with()` and `str_starts_with()` (PHP 8+).
+
+## 4. String Concatenation
+- Using the concatenation operator (`.`).
+- Concatenation assignment (`.=`).
+
+## 5. Exploding and Splitting Strings
+- **`explode()` function**:
+  - Splits a string into an array using a specified delimiter.
+  - Example: Splitting a comma-separated string.
+  - Optional limit parameter to control the number of splits.
+- **`implode()` function**:
+  - Joins array elements into a single string using a specified delimiter.
+
+## 6. Escaping Characters
+- The use of backslashes (`\`) for special characters.
+- Escaping sequences (e.g., `\n`, `\t`, `\\`).
+
+## 7. String Comparison
+- **Case-sensitive comparison**:
+  - `strcmp()`: Compare strings.
+  - `strncmp()`: Compare substrings.
+- **Case-insensitive comparison**:
+  - `strcasecmp()` and `strncasecmp()`.
+- `===` and `==`: Comparing strings and type.
+
+## 8. Heredoc and Nowdoc
+- **Heredoc** syntax:
+  - Definition and example.
+  - Similar to double-quoted strings.
+- **Nowdoc** syntax:
+  - Definition and example.
+  - Similar to single-quoted strings.
+
+## 9. Multibyte Strings
+- `mbstring` extension overview.
+- Working with multibyte-safe functions.
+
+## 10. Encoding and Decoding Strings
+- Encoding examples with `htmlspecialchars()` and `htmlentities()`.
+- Decoding examples with `html_entity_decode()`.
+
+## 11. Advanced Topics
+- **String interpolation in arrays**.
+- **Performance considerations**: Efficient string handling.
+
+## 12. Practical Examples
+- Sample scripts to demonstrate key string operations.
+
+
